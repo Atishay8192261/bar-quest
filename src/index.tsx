@@ -415,7 +415,7 @@ const App: React.FC = () => {
 				gap={1}
 			>
 				{aiBusy ? (
-					<Text color="yellow">⟳  Claude is thinking…</Text>
+					<Text color="yellow">⟳  Claude is cooking…</Text>
 				) : aiMode ? (
 					/* AI prompt input */
 					<Box flexDirection="column" gap={1}>
